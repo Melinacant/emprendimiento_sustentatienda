@@ -1,0 +1,266 @@
+$grey-text: #757e86;
+$fuente-1: 'Roboto', sans-serif;
+$fuente-2: 'Bebas Neue', cursiva;
+$size-1: 100px;
+$size-2: 100%;
+
+/*RESET*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+                                    /*ESTILO DEL BODY*/
+
+body {
+    height: $size-2;
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    font-family: $fuente-1;
+    background-color: rgb(248, 245, 246);
+    padding-top: 15px;
+    margin-left: $size-1;
+    margin-right: $size-1;
+}
+
+                                        /*CLASES DE COLOR*/
+
+
+.textpink {
+    color: pink;
+}
+
+.textgreen {
+    color: #52CD37
+}
+
+.textgrey {
+    color: $grey-text;
+}
+
+
+                                      /*ESTILO DE TEXTO Y LETRA*/
+
+.estiloParrafo {
+    font-style: normal;
+    font-weight: bold;
+    font-size:large;
+    margin: 5px;
+    padding: 5px;
+}
+
+.fuente1 {
+    font-family: $fuente-1;
+}
+
+.otrafuente {
+    font-family: $fuente-2;
+}
+
+.centrar {
+    text-align:center;
+}
+
+.espaciado {
+    letter-spacing: 4px;
+}
+
+.espacioPalabra {
+    word-spacing: 10px;
+}
+
+.titulo {
+    padding: 20px 25px 30px 20px;
+    margin: 20px 25px 25px 20px;
+    font-family: $fuente-2;
+}
+
+
+/*LISTA*/
+
+ul {
+    list-style-type: none;
+    color:$grey-text;
+}
+
+
+/*/ESTILOS DE ALGUNAS ETIQUETAS*/
+
+div p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-weight:normal;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-weight:normal;
+    font-size: 20px;
+    animation-duration: 4s;
+    animation-name: aparecer;
+}
+
+@keyframes aparecer {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+                                        /*IMAGEN*/
+
+img {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px){
+    img {
+    min-width: 80px;
+    min-height: 80px;
+    }
+}
+
+
+.logo {
+    width: $size-1;
+    max-width: 200px;
+}
+
+.fondofuente {
+    background-color: pink;
+}
+
+
+
+                                          /*SECCIONES*/
+
+
+header {
+    grid-area: header;
+}
+
+
+.footer {
+    font-family: $fuente-2;
+    position: relative;
+    width: $size-2;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+    color: $grey-text;
+    background-color: rgb(255, 255, 255);
+    grid-area: footer;
+  }
+
+.section__footer {
+    background-color:transparent;
+}
+ 
+
+.section__sr-only {
+    font-family: $fuente-2;
+}
+
+.newsletter {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    align-items: center !important;
+    }
+                                        
+.inNews {
+    width: $size-2;
+    display: flex;
+    text-align: center;
+    }
+
+
+
+                                        /*INDEX*/
+
+.indexArticle {
+    height: $size-2;
+    width: $size-2;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 80px;
+}
+
+section article img:hover {
+    margin: 0 0.2rem;
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */    
+    }
+
+
+
+.sectProd { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    align-content:center;
+}
+
+
+                                        /*SECCIÓN CONTACTO*/
+
+fieldset {
+    padding: 20px;
+}
+ 
+.nav__li__nav-link {
+    color: $grey-text;
+}
+
+
+                                        /*SECCIÓN PRODUCTOS*/                                        
+
+.section__list-group-item-action {
+    font-family: $fuente-2;
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ 
+                                        /*SECCIÓN INFORMACIÓN*/
+
+.nav__div__dropdown-item {
+    color: rgb(165, 162, 162);
+}
+
+.sectInf {
+    height: $size-2;
+    width: $size-2;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    color: $grey-text;
+    font-family: $fuente-2;
+}
+
+
