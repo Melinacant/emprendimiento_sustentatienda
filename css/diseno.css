@@ -13,7 +13,7 @@ body {
   font-size: 1rem;
   font-family: "Roboto", sans-serif;
   background-color: #f8f5f6;
-  padding-top: 15px;
+  padding-top: 30px;
   margin-left: 100px;
   margin-right: 100px; }
 
@@ -43,6 +43,10 @@ body {
 
 .centrar {
   text-align: center; }
+
+.left {
+  text-align: left;
+}
 
 .espaciado {
   letter-spacing: 4px; }
@@ -84,10 +88,10 @@ h2 {
 
 /*IMAGEN*/
 img {
-  width: 300px;
+  width: 200px;
   height: auto;
-  margin: 10px;
-  padding: 10px; }
+  margin: 15px;
+  padding: 15px; }
 
 @media only screen and (max-width: 768px) {
   img {
@@ -95,15 +99,20 @@ img {
     min-height: 80px; } }
 
 .logo {
-  width: 100px;
-  max-width: 200px; }
+  width: 80px;
+}
 
 .fondofuente {
   background-color: pink; }
 
 /*SECCIONES*/
 header {
-  grid-area: header; }
+  position: sticky;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+
+}
 
 .footer {
   font-family: "Bebas Neue", cursiva;
@@ -116,13 +125,13 @@ header {
   padding-bottom: 16px;
   color: #757e86;
   background-color: white;
-  grid-area: footer; }
 
 .section__footer {
   background-color: transparent; }
 
 .section__sr-only {
   font-family: "Bebas Neue", cursiva; }
+
 
 .newsletter {
   position: relative;
