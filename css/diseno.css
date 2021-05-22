@@ -111,7 +111,11 @@ header {
   width: 100%;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
+}
 
+header ul li {
+  color: #757e86;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer {
