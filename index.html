@@ -12,12 +12,12 @@
         <link rel="icon" href="../secciones/logo sustenta.ico">
         <!--Tipografías-->
         <link rel ="preconnect" href ="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="hoja de estilo">
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="hoja de estilo">
-
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap" rel="stylesheet">
     </head>
 
-<header class="navbar navbar-expand-lg navbar-light">
+<!-- Header -->
+
+<header class="header navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
         <img src="../secciones/Imagenes/logo sustenta.png" alt="logo" style="width: 150px;">
@@ -27,11 +27,11 @@
         </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-           <li class="nav-item">
-            <a class="nav-link textgrey fuente1" href="index.html">Inicio</a>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle textgrey fuente1" href="Productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+            <a class="nav-link dropdown-toggle" href="Productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
               <ul class="dropdown-menu centrar" aria-labelledby="navbarDropdownMenuLink" style="background-color: transparent;">
           <li><a class="dropdown-item" href="Productos.html">Facial</a></li>
           <li><a class="dropdown-item" href="Productos.html">Corporal</a></li>
@@ -40,10 +40,10 @@
               </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link textgrey fuente1" href="Información.html">Información</a>
+            <a class="nav-link" href="Información.html">Información</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link textgrey fuente1" href="Contacto.html">Contacto</a>
+            <a class="nav-link" href="Contacto.html">Contacto</a>
           </li>
         </ul>
         </div>
@@ -55,9 +55,14 @@
 
 <body>
 
-<section class="container-fluid" style="text-align:right; padding-top: 5rem;">
+<!-- Section 1 -->
+<div class="container">
+  <div class="textHome"><h2>Productos naturales multimarca</h2><h2>para el cuidado personal</h2><h2>y del medio ambiente</h2></div>
+</div>
+
+<section class="container-fluid carrousel">
   <div class="col-md-10">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -65,13 +70,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="1500">
-                <img src="Imagenes/A2.png" class="d-block-inline" style="width: 80%;" alt="foto">
+                <img src="Imagenes/A.png" class="d-block-inline" style="width: 80%;" alt="foto">
               </div>
               <div class="carousel-item" data-bs-interval="1500">
-                <img src="Imagenes/B2.png" class="d-block-inline" style="width: 80%;" alt="foto">
+                <img src="Imagenes/B.png" class="d-block-inline" style="width: 80%;" alt="foto">
               </div>
               <div class="carousel-item" data-bs-interval="1500">
-                <img src="Imagenes/C2.png" class="d-block-inline" style="width: 80%;" alt="foto">
+                <img src="Imagenes/C.png" class="d-block-inline" style="width: 80%;" alt="foto">
               </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -83,20 +88,23 @@
           <span class="sr-only">Siguiente</span>
         </a>
   </div>
+
 </section>
 <hr>
 
+<!-- Section 2 -->
+
 <section>
 <article class="indexArticle">
-  <h3 class="textgreen fuente1 titulo centrar">Productos destacados</h3></div>
+  <h3 class="textgreen titulo centrar">Productos destacados</h3></div>
     <div class="container centrar">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="row row-cols-1 row-cols-md-3">
         <div class="col">
           <div class="card h-100">
-            <img src="../secciones/Imagenes/IMG-20210412-WA0020-min.jpg" class="card-img-top" alt="bálsamo labial">
+            <img src="../secciones/Imagenes/IMG-20210412-WA0020-min.jpg" class="card-img-top imgCard" alt="bálsamo labial">
             <div class="card-body">
-              <h5 class="card-title otrafuente">Bálsamo labial</h5>
-              <p class="card-text otrafuente">Compuesto por mantecas y aceites puros. Hidra, nutre, protege y repara.</p>
+              <h5 class="card-title">Bálsamo labial</h5>
+              <p class="card-text">Compuesto por mantecas y aceites puros. Hidra, nutre, protege y repara.</p>
             </div>
             <div class="card-footer">
               <small class="text-muted"><a href="Productos.html">Ver más productos</a></small>
@@ -105,11 +113,11 @@
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="../secciones/Imagenes/15.jpg" class="card-img-top" alt="velas">
+            <img src="../secciones/Imagenes/15.jpg" class="card-img-top imgCard" alt="velas">
             <div class="card-body">
-              <h5 class="card-title otrafuente">Combo aromático</h5>
-              <p class="card-text otrafuente">Vela de cera de soja en macetas de cemento reutilizables. 
-              Sahúmos de diferentes variedades (cedro, lavanda, romero, olivo y laurel).</p>
+              <h5 class="card-title">Combo aromático</h5>
+              <p class="card-text">Vela de cera de soja en macetas de cemento reutilizables. 
+              Sahúmos de diferentes variedades.</p>
             </div>
             <div class="card-footer">
               <small class="text-muted"><a href="Productos.html">Ver más productos</a></small>
@@ -117,11 +125,11 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100 centrar">
-            <img src="../secciones/Imagenes/IMG-20210412-WA0019-min.jpg" class="card-img-top" alt="cepillo de bambú para cabello">
+          <div class="card h-100">
+            <img src="../secciones/Imagenes/IMG-20210412-WA0019-min.jpg" class="card-img-top imgCard" alt="cepillo de bambú para cabello">
             <div class="card-body">
-              <h5 class="card-title otrafuente">Cepillo de bambú para cabello</h5>
-              <p class="card-text otrafuente">Beneficios de antiestática y antifriz, realiza masaje capilar gracias a sus puntas redondeadas.</p>
+              <h5 class="card-title">Cepillo de bambú</h5>
+              <p class="card-text">Beneficios de antiestática y antifriz, realiza masaje capilar gracias a sus puntas redondeadas.</p>
             </div>
             <div class="card-footer">
               <small class="text-muted"><a href="Productos.html">Ver más productos</a></small>
@@ -131,29 +139,37 @@
       </div>
     </div>
 </article>
+</section>
 <hr>
 
-<div class="row justify-content-center">
-  <div class="newsletter">
-  <label for="exampleFormControlInput1" class=" titulo textgreen"><h3>Suscribite a nuestro Newsletter</h3></label>
+<!-- Newsletter -->
+
+<div class="newsletter">
+  <label for="exampleFormControlInput1" class="titulo textgreen"><h3>Suscribite a nuestro Newsletter</h3></label>
   <div class="mb-3 inNews">
     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@email.com">
     <button type="button" class="btn btn-outline-secondary">Enviar</button>
   </div>
+</div>
+
+
+<!-- Footer -->
+
+<footer class="row m-0 container-fluid footer" style="justify-content: space-around;">
+  <div class="col-md-2 logo-footer">
+    <img src="../secciones/Imagenes/logo sustenta.png" style="width: 150px;" alt="logo">
   </div>
-</div>
+
+  <div class="col-md-2">
+      <h5 class="textgrey">Redes sociales</h5>
+    <a href="https://www.facebook.com/"><div class="d-flex flex-row-reverse bd-highlight">
+      <div class="p-2 bd-highlight"><button type="button" class="btn btn-secondary btn-lg" style="background-image: url(../secciones/Imagenes/facebook\ \(1\).png); height: 35px;"></button></a><h6>/sustentatienda</h6>
+    <a href="https://www.instagram.com/"><div class="d-flex flex-row-reverse bd-highlight">
+      <div class="p-2 bd-highlight"><button type="button" class="btn btn-secondary btn-lg" style="background-image: url(../secciones/Imagenes/instagram\ \(1\).png); height: 35px;"></button></a><h6>@sustenta.tienda</h6>
+  </div>
+</footer>
 
 
-<div class="footer">
-    <h6>Redes sociales
-    <ul>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Facebook</a></li>
-    </h6>
-    </ul>
-</div>
-
-</section>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
