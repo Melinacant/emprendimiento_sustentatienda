@@ -12,8 +12,10 @@
     <link rel="icon" href="../secciones/logo sustenta.ico">
     <!--Tipografías-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,900;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap" rel="stylesheet">
 </head>
+
+<!-- Header -->
 
 <header class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
@@ -25,23 +27,23 @@
         </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-           <li class="nav-item">
-            <a class="nav-link textgrey fuente1" href="index.html">Inicio</a>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle textgrey fuente1" href="Productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
-              <ul class="dropdown-menu centrar" aria-labelledby="navbarDropdownMenuLink" style="background-color: transparent;">
-          <li><a class="dropdown-item" href="Productos.html">Facial</a></li>
-          <li><a class="dropdown-item" href="Productos.html">Corporal</a></li>
-          <li><a class="dropdown-item" href="Productos.html">Capilar</a></li>
-          <li><a class="dropdown-item" href="Productos.html">Bucal</a></li>
+            <a class="nav-link dropdown-toggle" href="Productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: transparent;">
+          <li><a class="dropdown-item centrar" href="Productos.html">Facial</a></li>
+          <li><a class="dropdown-item centrar" href="Productos.html">Corporal</a></li>
+          <li><a class="dropdown-item centrar" href="Productos.html">Capilar</a></li>
+          <li><a class="dropdown-item centrar" href="Productos.html">Bucal</a></li>
               </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link textgrey fuente1" href="Información.html">Información</a>
+            <a class="nav-link" href="Información.html">Información</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link textgrey fuente1" href="Contacto.html">Contacto</a>
+            <a class="nav-link" href="Contacto.html">Contacto</a>
           </li>
         </ul>
         </div>
@@ -53,9 +55,12 @@
 
 
 <body>
+
+<!-- Productos list group --> 
+  
 <section>
-    <div class="container">
-    <div class= "row-cols-md-5">
+    <div class="container" style="padding-top: 6rem;">
+    <div class= "row-cols-md-4">
     <div class="list-group centrar" id="myList" role="tablist">
         <a class="list-group-item list-group-item-action active textgrey" data-bs-toggle="list" href="#facial" role="tab">Cuidado facial</a>
         <a class="list-group-item list-group-item-action textgrey" data-bs-toggle="list" href="#corporal" role="tab">Cuidado corporal</a>
@@ -66,37 +71,39 @@
     </div>
     </div>
     <br>
+
 <!-------------------- FACIAL -------------------->
+
     <div class="container centrar">
-    <div class="row">  
+    <div class="row-cols-md-8">  
     <div class="tab-content">
         <div class="tab-pane show active" id="facial" role="tabpanel">
             <div class="flex">
-                <div class="col" style="width: 12rem;">
-                  <div class="card sectProd centrar">
+                <div class="col">
+                  <div class="card sectProd">
                     <img src="../secciones/Imagenes/3-min.jpg" class="card-img-top" alt="bálsamo labial">
-                    <div class="card-body otrafuente">
-                      <h5 class="card-title">Bálsamo labial</h5>
+                    <div class="card-body">
+                      <h6 class="card-title">Bálsamo labial</h6>
                       <p class="card-text">$290</p>
                       <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
                     </div>
                   </div>
                 </div>
-                <div class="col" style="width: 12rem;">
-                  <div class="card sectProd centrar">
+                <div class="col">
+                  <div class="card sectProd">
                     <img src="../secciones/Imagenes/IMG-20210412-WA0023-min.jpg" class="card-img-top" alt="pad reutilizable">
-                    <div class="card-body otrafuente">
-                      <h5 class="card-title">Pad reutilizable</h5>
+                    <div class="card-body">
+                      <h6 class="card-title">Pad reutilizable</h6>
                       <p class="card-text">$150</p>
                       <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
                     </div>
                   </div>
                 </div>
-                <div class="col" style="width: 12rem;">
+                <div class="col">
                   <div class="card sectProd centrar">
                     <img src="../secciones/Imagenes/8.png" class="card-img-top" alt="almohadilla térmica">
-                    <div class="card-body otrafuente">
-                      <h5 class="card-title">Almohadilla térmica</h5>
+                    <div class="card-body">
+                      <h6 class="card-title">Almohadilla térmica</h6>
                       <p class="card-text">$620</p>
                       <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
                     </div>
@@ -104,75 +111,86 @@
                 </div>
               </div>
         </div>
+
 <!-------------------- CORPORAL -------------------->
       
       <div class="tab-pane" id="corporal" role="tabpanel">
         <div class="flex">
-        <div class="col" style="width: 12rem;">
+        <div class="col">
           <div class="card sectProd">
             <img src="../secciones/Imagenes/IMG-20210412-WA0031-min.jpg" class="card-img-top" alt="crema de ordeñe">
-              <div class="card-body otrafuente">
-                  <h5 class="card-title">Crema de ordeñe</h5>
+              <div class="card-body">
+                <h6 class="card-title">Crema de ordeñe</h6>
                 <p class="card-text">$500</p>
                 <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
               </div>
             </div>
           </div>
-          <div class="col" style="width: 12rem;">
+          <div class="col">
             <div class="card sectProd">
               <img src="../secciones/Imagenes/IMG-20210412-WA0030-min.jpg" class="card-img-top" alt="copa menstrual">
-              <div class="card-body otrafuente">
-                <h5 class="card-title">Copa menstrual</h5>
+              <div class="card-body">
+                <h6 class="card-title">Copa menstrual</h6>
                 <p class="card-text">$1500</p>
                 <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
               </div>
             </div>
           </div>
-          <div class="col" style="width: 12rem;">
+          <div class="col">
             <div class="card sectProd">
               <img src="../secciones/Imagenes/IMG-20210412-WA0028-min.jpg" class="card-img-top" alt="toallita de tela">
-              <div class="card-body otrafuente">
-                <h5 class="card-title">Toallitas de tela</h5>
+              <div class="card-body">
+                <h6 class="card-title">Toallitas de tela</h6>
                 <p class="card-text">$330</p>
                 <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
               </div>
             </div>
           </div>
-          <div class="col" style="width: 12rem;">
+          <div class="col">
             <div class="card sectProd">
               <img src="../secciones/Imagenes/9.jpg" class="card-img-top" alt="desodorantes">
-              <div class="card-body otrafuente">
-                <h5 class="card-title">Desodorantes naturales</h5>
+              <div class="card-body">
+                <h6 class="card-title">Desodorantes</h6>
                 <p class="card-text">$300</p>
                 <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
               </div>
             </div>
           </div>
-          <div class="col" style="width: 12rem;">
+          <div class="col">
             <div class="card sectProd">
-              <img src="../secciones/Imagenes/16.jpg" class="card-img-top" alt="jabón de glicerina">
-              <div class="card-body otrafuente">
-                <h5 class="card-title">Jabón de glicerina</h5>
+              <img src="../secciones/Imagenes/10.jpg" class="card-img-top" alt="jabón de glicerina">
+              <div class="card-body">
+                <h6 class="card-title">Jabón de propóleos</h6>
                 <p class="card-text">$180</p>
                 <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
               </div>
             </div>
           </div>
-          <div class="col" style="width: 12rem;">
+          <div class="col">
+            <div class="card sectProd">
+              <img src="../secciones/Imagenes/16.jpg" class="card-img-top" alt="jabón de glicerina">
+              <div class="card-body">
+                <h6 class="card-title">Jabón de rosa mosqueta</h6>
+                <p class="card-text">$180</p>
+                <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
             <div class="card sectProd">
               <img src="../secciones/Imagenes/IMG-20210412-WA0021-min.jpg" class="card-img-top" alt="jabón de aceite de coco">
-              <div class="card-body otrafuente">
-                <h5 class="card-title">Jabón a base de aceite de coco</h5>
+              <div class="card-body">
+                <h6 class="card-title">Jabón aceite de coco</h6>
                 <p class="card-text">$140</p>
                 <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
               </div>
             </div>
           </div>
-          <div class="col" style="width: 12rem;">
+          <div class="col">
             <div class="card sectProd">
               <img src="../secciones/Imagenes/IMG-20210412-WA0032-min.jpg" class="card-img-top" alt="esponja vegetal">
-              <div class="card-body otrafuente">
-                <h5 class="card-title">Esponja y disco vegetal</h5>
+              <div class="card-body">
+                <h6 class="card-title">Esponja y disco vegetal</h6>
                 <p class="card-text">$150</p>
                 <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
               </div>
@@ -182,53 +200,54 @@
       </div>
       
 <!-------------------- CAPILAR -------------------->
+
         <div class="tab-pane" id="capilar" role="tabpanel">
           <div class="flex">
-            <div class="col" style="width: 12rem;">
+            <div class="col">
                 <div class="card sectProd">
                   <img src="../secciones/Imagenes/7.jpg" class="card-img-top" alt="shampoo sólido">
-                  <div class="card-body otrafuente">
-                    <h5 class="card-title">Shampoo sólido</h5>
+                  <div class="card-body">
+                    <h6 class="card-title">Shampoo sólido</h6>
                     <p class="card-text">$400</p>
                     <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
                   </div>
                 </div>
               </div>
-              <div class="col" style="width: 12rem;">
+              <div class="col">
                 <div class="card sectProd">
                   <img src="../secciones/Imagenes/14.jpg" class="card-img-top" alt="acondicionador sólido">
-                  <div class="card-body otrafuente">
-                    <h5 class="card-title">Acondicionador sólido</h5>
+                  <div class="card-body">
+                    <h6 class="card-title">Acondicionador sólido</h6>
                     <p class="card-text">$400</p>
                     <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
                   </div>
                 </div>
               </div>
-              <div class="col" style="width: 12rem;">
+              <div class="col">
                 <div class="card sectProd">
                   <img src="../secciones/Imagenes/19.jpg" class="card-img-top" alt="shampoo líquido">
-                  <div class="card-body otrafuente">
-                    <h5 class="card-title">Shampoo</h5>
+                  <div class="card-body">
+                    <h6 class="card-title">Shampoo</h6>
                     <p class="card-text">$490</p>
                     <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
                   </div>
                 </div>
               </div>
-              <div class="col" style="width: 12rem;">
+              <div class="col">
                 <div class="card sectProd">
                   <img src="../secciones/Imagenes/13.jpg" class="card-img-top" alt="acondicionador líquido">
-                  <div class="card-body otrafuente">
-                    <h5 class="card-title">Acondicionador</h5>
+                  <div class="card-body">
+                    <h6 class="card-title">Acondicionador</h6>
                     <p class="card-text">$490</p>
                     <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
                   </div>
                 </div>
               </div>
-              <div class="col" style="width: 12rem;">
+              <div class="col">
                 <div class="card sectProd">
                   <img src="../secciones/Imagenes/IMG-20210412-WA0019-min.jpg" class="card-img-top" alt="cepillo de bambú para cabello">
-                  <div class="card-body otrafuente">
-                    <h5 class="card-title">Cepillo de bambú</h5>
+                  <div class="card-body">
+                    <h6 class="card-title">Cepillo de bambú</h6>
                     <p class="card-text">$630</p>
                     <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
                   </div>
@@ -236,60 +255,74 @@
               </div>
           </div>  
         </div>
+
 <!-------------------- BUCAL -------------------->
+
         <div class="tab-pane" id="bucal" role="tabpanel">
           <div class="flex">
-            <div class="col" style="width: 12rem;">
+            <div class="col">
                 <div class="card sectProd">
                   <img src="../secciones/Imagenes/20.jpg" class="card-img-top" alt="cepillo de dientes de bambú">
-                  <div class="card-body otrafuente">
-                    <h5 class="card-title">Cepillo de dientes de bambú</h5>
+                  <div class="card-body">
+                    <h6 class="card-title">Cepillo de dientes de bambú C/U </h6>
                     <p class="card-text">$240</p>
                     <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
                   </div>
                 </div>
               </div>
-              <div class="col" style="width: 12rem;">
+              <div class="col">
                 <div class="card sectProd">
                   <img src="../secciones/Imagenes/21.jpg" class="card-img-top" alt="pasta dental">
-                  <div class="card-body otrafuente">
-                    <h5 class="card-title">Pasta dental natural</h5>
+                  <div class="card-body">
+                    <h6 class="card-title">Pasta dental natural Belaruna</h6>
                     <p class="card-text">$305</p>
+                    <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card sectProd">
+                  <img src="../secciones/Imagenes/20.jpg" class="card-img-top" alt="cepillo de dientes de bambú">
+                  <div class="card-body">
+                    <h6 class="card-title">Cepillo de dientes de bambú 5 unidades</h6>
+                    <p class="card-text">$1050</p>
                     <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
                   </div>
                 </div>
               </div>
           </div>
         </div>
+            
+
 <!-------------------- HOGAR -------------------->
+
         <div class="tab-pane" id="hogar" role="tabpanel">
           <div class="flex">
-            <div class="col" style="width: 12rem;">
+            <div class="col">
                 <div class="card sectProd">
                   <img src="../secciones/Imagenes/IMG-20210412-WA0033-min.jpg" class="card-img-top" alt="jabonera de bambú">
-                  <div class="card-body otrafuente">
-                    <h5 class="card-title">Jabonera de bambú</h5>
+                  <div class="card-body">
+                    <h6 class="card-title">Jabonera de bambú</h6>
                     <p class="card-text">$360</p>
                     <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
                   </div>
                 </div>
               </div>
-              <div class="col" style="width: 12rem;">
+              <div class="col">
                 <div class="card sectProd">
                   <img src="../secciones/Imagenes/15.jpg" class="card-img-top" alt="vela de cera de soja">
-                  <div class="card-body otrafuente">
-                    <h5 class="card-title">Vela de cera de soja</h5>
+                  <div class="card-body">
+                    <h6 class="card-title">Vela de cera de soja</h6>
                     <p class="card-text">$315</p>
                     <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
                   </div>
                 </div>
               </div>
-              <div class="col" style="width: 12rem;">
+              <div class="col">
                 <div class="card sectProd">
                   <img src="../secciones/Imagenes/IMG-20210412-WA0025-min.jpg" class="card-img-top" alt="perfumina">
-                  <div class="card-body otrafuente">
-                    <h5 class="card-title">Perfuminas</h5>
-                    <p class="card-text">Aromáticas/floral/coco y vainilla/sándalo y champa/cítrico</p>
+                  <div class="card-body">
+                    <h6 class="card-title">Perfuminas</h6>
                     <p class="card-text">$310</p>
                     <button type="button" class="btn btn-secondary btn-sm">Añadir al carrito</button>
                   </div>
@@ -301,42 +334,47 @@
     </div>
     </div>
 
-      <script>
-        var firstTabEl = document.querySelector('#myTab a:last-child')
-        var firstTab = new bootstrap.Tab(firstTabEl)
-      
-        firstTab.show()
-      </script>
 </section>
-
 <hr>
 
-<div class="row justify-content-center">
-  <div class="newsletter">
-  <label for="exampleFormControlInput1" class=" titulo textgreen centrar"><h3>Suscribite a nuestro Newsletter</h3></label>
+<!-- Newsletter -->
+
+<div class="newsletter">
+  <label for="exampleFormControlInput1" class="titulo textgreen"><h3>Suscribite a nuestro Newsletter</h3></label>
   <div class="mb-3 inNews">
     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@email.com">
     <button type="button" class="btn btn-outline-secondary">Enviar</button>
   </div>
-  </div>
-  </div>
-  
-  
-<div class="footer">
-      <h6>Redes sociales
-      <ul>
-          <li><a href="#">Instagram</a></li>
-          <li><a href="#">Facebook</a></li>
-      </h6>
-      </ul>
 </div>
 
+<!-- Footer -->
+
+<footer class="row m-0 container-fluid footer" style="justify-content: space-around;">
+  <div class="col-md-2 logo-footer">
+    <img src="../secciones/Imagenes/logo sustenta.png" style="width: 150px;" alt="logo">
+  </div>
+
+  <div class="col-md-2">
+      <h5 class="textgrey">Redes sociales</h5>
+    <a href="https://www.facebook.com/"><div class="d-flex flex-row-reverse bd-highlight">
+      <div class="p-2 bd-highlight"><button type="button" class="btn btn-secondary btn-lg" style="background-image: url(../secciones/Imagenes/facebook\ \(1\).png); height: 35px;"></button></a><h6>/sustentatienda</h6>
+    <a href="https://www.instagram.com/"><div class="d-flex flex-row-reverse bd-highlight">
+      <div class="p-2 bd-highlight"><button type="button" class="btn btn-secondary btn-lg" style="background-image: url(../secciones/Imagenes/instagram\ \(1\).png); height: 35px;"></button></a><h6>@sustenta.tienda</h6>
+  </div>
+</footer>
 
 
-    
+<script>
+  var firstTabEl = document.querySelector('#myTab a:last-child')
+  var firstTab = new bootstrap.Tab(firstTabEl)
+        
+  firstTab.show()
+</script>    
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
 </body>
+</html>
