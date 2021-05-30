@@ -121,7 +121,7 @@ img {
   text-align: center;
   padding-top: 20px;
   color: #757e86;
-  background-image: url("../secciones/Imagenes/ecofriendly3.png");
+  background-image: url("Imagenes/ecofriendly3.png");
   background-repeat:repeat-x;
 }
 
@@ -153,7 +153,7 @@ img {
   color: gray;
   animation-duration: 4s;
   animation-name: aparecer;
-  background-image: url("../secciones/Imagenes/ecofriendly3.png"); 
+  background-image: url("Imagenes/ecofriendly3.png"); 
   letter-spacing: 2px;
   text-align:center;
 }
