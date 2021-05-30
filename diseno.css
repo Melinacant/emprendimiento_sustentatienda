@@ -2,13 +2,12 @@
 /*RESET*/
 * {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px; 
+}
 
 /*ESTILO DEL BODY*/
 body {
-  color: black;
   font-style: normal;
-  font-weight: normal;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   background-color: white;
@@ -19,10 +18,12 @@ body {
 
 /*CLASES DE COLOR*/
 .textgreen {
-  color: #55ca3bd5; }
+  color: #55ca3bd5; 
+}
 
 .textgrey {
-  color: #757e86; }
+  color: #757e86; 
+}
 
 
 /*ESTILO DE TEXTO Y LETRA*/
@@ -31,20 +32,24 @@ body {
   font-weight: bold;
   font-size: large;
   margin: 5px;
-  padding: 5px; }
+  padding: 5px; 
+}
 
 .fuente1 {
   font-family: 'Montserrat', sans-serif;
 }
 
 .centrar {
-  text-align: center; }
+  text-align: center; 
+}
 
 .espaciado {
-  letter-spacing: 4px; }
+  letter-spacing: 4px; 
+}
 
 .espacioPalabra {
-  word-spacing: 6px; }
+  word-spacing: 6px; 
+}
 
 .titulo {
   padding: 20px 25px 30px 20px;
@@ -62,35 +67,41 @@ body {
 /*LISTA*/
 ul {
   list-style-type: none;
-  color: #757e86; }
+  color: #757e86; 
+}
 
 
 /*/ESTILOS DE ALGUNAS ETIQUETAS*/
 h1 {
   font-weight: normal;
   font-size: 40px;
-  margin-top: 10px; }
+  margin-top: 10px; 
+}
 
 @keyframes aparecer {
   0% {
     opacity: 0; }
   100% {
-    opacity: 1; } }
+    opacity: 1; } 
+}
 
 
 /*IMAGENES*/
 img {
   margin: 15px;
-  padding: 15px; }
+  padding: 15px; 
+}
 
 @media only screen and (max-width: 768px) {
   img {
     min-width: 80px;
-    min-height: 80px; } }
+    min-height: 80px; } 
+}
 
 .logo {
   width: 100px;
-  max-width: 200px; }
+  max-width: 200px; 
+}
 
 
 /*SECCIONES DE CADA PÁGINA*/
@@ -112,7 +123,7 @@ img {
   color: #757e86;
   background-image: url("../secciones/Imagenes/ecofriendly3.png");
   background-repeat:repeat-x;
-  }
+}
 
 .newsletter {
   margin-top: 2rem;
@@ -121,12 +132,14 @@ img {
   padding-right: 100px;
   padding-left: 100px;
   padding-bottom: 100px;
-  text-align: center !important; }
+  text-align: center !important; 
+}
 
 .inNews {
   width: 100%;
   display: flex;
-  text-align: center; }
+  text-align: center; 
+}
 
 
 /*INDEX*/
@@ -151,7 +164,8 @@ img {
   padding-right: 100px;
   padding-left: 100px;
   padding-bottom: 50px;
-  color: #757e86; }
+  color: #757e86; 
+}
 
 .imgCard {
   text-align: center;
@@ -163,7 +177,8 @@ section article img:hover {
   animation: pulse;
   /* referring directly to the animation's @keyframe declaration */
   animation-duration: 3s;
-  /* don't forget to set a duration! */ }
+  /* don't forget to set a duration! */ 
+}
 
 .carrousel {
   padding-top: 3rem;
@@ -207,7 +222,8 @@ section article img:hover {
 }
 
 fieldset {
-  padding: 20px; }
+  padding: 20px; 
+}
 
 
 /*SECCIÓN INFORMACIÓN*/
@@ -221,4 +237,4 @@ fieldset {
   color: #757e86;
   font-family: 'Montserrat', sans-serif; 
   text-align: justify;
-  }
+}
